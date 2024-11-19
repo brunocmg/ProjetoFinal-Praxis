@@ -2,9 +2,9 @@ body {
     text-decoration: none;
     color: #fff;
     background-color: #333;
-    padding-bottom: 400px;
 
     background: linear-gradient(270deg, rgba(166, 112, 81, 0.9) 16.45%, rgba(104, 105, 81, 0.85) 27.78%, #296251 64.26%);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 *{
@@ -16,7 +16,7 @@ main {
     background-image: url(../img/background.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: top;
+    background-position: center -120px;
 }
 
 header {
@@ -26,7 +26,7 @@ header {
 
 .social-header img,
 .contact-header img {
-    height: 40px;
+    height: 30px;
 }
 
 .social-header img {
@@ -50,9 +50,18 @@ header {
 
 }
 
+.fale-conosco {
+    word-spacing: 7px;
+}
+
 nav {
     display: flex;
     padding-top: 30px;
+}
+
+nav img {
+    width: 120px;
+    margin-left: 20px;
 }
 
 .secoes {
@@ -136,4 +145,73 @@ nav {
 .seta-direita {
     padding-left: 30px;
     height: 50px;
+}
+
+.contact {
+    background-image: url(../img/image.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 50vh;
+    width: 100%;
+    background-position: center -100px;
+
+    display: flex;
+    color: #000;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 40px;
+}
+
+.text-contact {
+    width: 500px;
+    text-align: center;
+}
+
+.texto {
+    margin-left: 100px;
+}
+
+.infos,
+.texto {
+    background-color: rgba(3, 185, 3, 60%);
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.botao-fale-conosco {
+    margin-right: 120px;
+    padding: 30px 50px;
+    border-radius: 30px;
+    background-color: rgba(3, 185, 3, 60%);
+    font-size: 20px;
+    box-shadow: 0px 0px 8px #00000060;
+}
+
+.botao-fale-conosco:hover {
+    background-color: rgba(3, 185, 3, 100%);
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #296251;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 300px;
+    height: 50vh;
+    font-size: 22px;
+}
+
+footer p {
+    padding-bottom: 20px;
+}
+
+.contato-footer,
+.social-footer {
+    height: 120px;
+}
+
+.text-social,
+.text-contact-footer {
+    font-size: 60px;
 }
