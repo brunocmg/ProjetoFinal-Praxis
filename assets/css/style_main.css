@@ -1,0 +1,110 @@
+body {
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    padding-bottom: 400px;
+}
+
+header {
+    border-bottom: 1px solid white;
+    display: flex;
+}
+
+.social-header img,
+.contact-header img {
+    height: 40px;
+}
+
+.social-header img {
+    padding-left: 20px;
+}
+
+.contact-header {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.contact-header p,
+.contact-header img{
+    margin-right: 10px;
+}
+
+.contact-header p {
+    font-size: 23px;
+    margin-right: 30px;
+
+}
+
+nav {
+    display: flex;
+    padding-top: 30px;
+}
+
+.secoes {
+    margin-left: auto;
+}
+
+.secoes a {
+    padding-right: 80px;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 50vh;
+}
+
+.nome-empresa {
+    font-size: 60px;
+    color: blue;
+}
+
+.imagens {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(89.88deg, rgba(166, 112, 81, 0.9) 16.45%, rgba(104, 105, 81, 0.85) 27.78%, #296251 64.26%);
+    height: 120vh;    
+}
+
+.caixa-imagens {
+    background-color: #E5E3E3;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    padding-bottom: 80px;
+}
+
+.titulo {
+    font-size: 40px;
+}
+
+.subtitulo {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.carrossel {
+    display: flex;
+    align-items: center;
+}
+
+.seta-esquerda {
+    padding-right: 30px;
+    height: 50px;
+}
+
+.seta-direita {
+    padding-left: 30px;
+    height: 50px;
+}
+
+
