@@ -138,13 +138,21 @@ nav img {
 }
 
 .seta-esquerda {
-    padding-right: 30px;
+    margin-right: 30px;
     height: 50px;
 }
 
 .seta-direita {
-    padding-left: 30px;
+    margin-left: 30px;
     height: 50px;
+}
+
+.container img {
+    display: none; 
+}
+
+.container img.imagemAtiva {
+    display: block; 
 }
 
 .contact {
