@@ -4,7 +4,7 @@ body {
     background-color: #333;
 
     background: linear-gradient(270deg, rgba(166, 112, 81, 0.9) 16.45%, rgba(104, 105, 81, 0.85) 27.78%, #296251 64.26%);
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: "Montserrat";
 }
 
 *{
@@ -13,7 +13,7 @@ body {
 }
 
 main {
-    background-image: url(../img/background.png);
+    background-image: url(../img/background-inicio.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: center -120px;
@@ -26,11 +26,11 @@ header {
 
 .social-header img,
 .contact-header img {
-    height: 30px;
+    height: 25px;
 }
 
 .social-header img {
-    padding-left: 20px;
+    padding-left: 18px;
 }
 
 .contact-header {
@@ -72,6 +72,7 @@ nav img {
     padding-right: 80px;
     font-size: 30px;
     text-decoration: none;
+    font-weight: bold;
     color: white;
 }
 
@@ -85,7 +86,7 @@ nav img {
 
 .nome-empresa {
     font-size: 60px;
-    color: blue;
+    color: #fff;
 }
 
 .imagens {
@@ -156,7 +157,7 @@ nav img {
 }
 
 .contact {
-    background-image: url(../img/image.jpg);
+    background-image: url(../img/cama-incio.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
     height: 50vh;

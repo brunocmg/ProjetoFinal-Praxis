@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #ccc;
+    font-family: "Montserrat";
+}
+
+header {
+    background-color: #296251;
+    border-bottom: 1px solid white;
+    display: flex;
+}
+
+header p {
+    color: #fff;
+}
+
+.social-header img,
+.contact-header img {
+    height: 30px;
+}
+
+.social-header img {
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.contact-header {
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+}
+
+.contact-header p,
+.contact-header img{
+    margin-right: 10px;
+}
+
+.contact-header p {
+    font-size: 23px;
+    margin-right: 30px;
+
+}
+
+.fale-conosco {
+    word-spacing: 7px;
+}
+
+nav {
+    display: flex;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+    align-items: center;
+    justify-content: center;
+    height: 7vh;
+}
+
+nav img {
+    width: 120px;
+    margin-left: 20px;
+}
+
+.secoes {
+    margin-left: auto;
+}
+
+.secoes a {
+    padding-right: 80px;
+    font-size: 30px;
+    text-decoration: none;
+    color: #000;
+}
+
+.fotos { 
+    position: relative; 
+    height: 90vh; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-bottom: 2px solid #000; 
+}
+
+.fotos::before { 
+    content: ""; 
+    position: absolute; 
+    top: 0; left: 0; 
+    width: 100%; 
+    height: 100%; 
+    background-image: url(../img/cama-homes.png); 
+    background-repeat: no-repeat; 
+    background-size: 100%; 
+    background-position: center -120px; 
+    filter: blur(5px);  
+    z-index: -1; 
+}
+
+.seta-esquerda {
+    margin-right: 10vh;
+    height: 10vh;
+}
+
+.seta-direita {
+    margin-left: 10vh;
+    height: 10vh;
+}
+
+.cama-homes {
+    width: 80vh;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5vh;
+}
+
+.info h1 {
+    font-size: 5vh;
+    padding-bottom: 2vh;
+}
+
+.info h2 {
+    font-size: 5vh;
+    padding-bottom: 3vh;
+}
+
+.local {
+    display: flex;
+}
+
+.local p {
+    font-size: 4vh;
+}
+
+.local img {
+    height: 4vh;
+    padding-right: 1vh;
+    padding-bottom: 4vh;
+}
+
+.informativos {
+    display: flex;
+    width: 60vh;
+    justify-content: space-between;
+    padding-bottom: 10vh;
+}
+
+.informativos p {
+    border: 1px solid #000;
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: #555;
+    color: #fff;
+    font-size: 20px;
+}
+
+.texto-descritivo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 95vh;
+}
+
+.texto-descritivo p {
+    font-size: 2vh;
+    padding-bottom: 2vh;
+}
+
+footer {
+    background-color: #296251;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 300px;
+    height: 50vh;
+    font-size: 22px;
+    margin-top: 10vh;
+}
+
+footer p {
+    padding-bottom: 20px;
+    color: #fff;
+}
+
+.contato-footer,
+.social-footer {
+    height: 120px;
+}
+
+.text-social,
+.text-contact-footer {
+    font-size: 60px;
+}
