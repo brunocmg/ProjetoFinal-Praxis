@@ -46,9 +46,8 @@ header {
 }
 
 .contact-header p {
-    font-size: 2.5vh;
+    font-size: 1.2rem;
     margin-right: 3vh;
-
 }
 
 nav {
@@ -67,7 +66,7 @@ nav img {
 
 .secoes a {
     padding-right: 8vh;
-    font-size: 3vh;
+    font-size: 1.5rem;
     text-decoration: none;
     font-weight: bold;
     color: white;
@@ -86,7 +85,7 @@ nav img {
 }
 
 .nome-empresa {
-    font-size: 6.5vh;
+    font-size: 3.5rem;
     color: #fff;
 }
 
@@ -114,12 +113,12 @@ nav img {
 }
 
 .titulo {
-    font-size: 4vh;
+    font-size: 2rem;
     padding-bottom: 2vh;
 }
 
 .subtitulo {
-    font-size: 3vh;
+    font-size: 1.5rem;
     padding-bottom: 4vh;
 }
 
@@ -164,12 +163,12 @@ nav img {
     height: 50vh;
     width: 100%;
     background-position: center -100px;
-
+    text-align: center;
     display: flex;
     color: #000;
     align-items: center;
+    font-size: 2rem;
     justify-content: space-between;
-    font-size: 4vh;
 }
 
 .text-contact {
@@ -183,9 +182,10 @@ nav img {
 
 .infos,
 .texto {
-    background-color: #838383a1;
+    background-color: rgb(3, 185, 3);
     border-radius: 20px;
     padding: 1vh 2vh;
+    border: 1px solid #000;
 }
 
 .botao-fale-conosco {
@@ -193,7 +193,7 @@ nav img {
     padding: 3vh 5vh;
     border-radius: 30px;
     background-color: rgba(3, 185, 3, 60%);
-    font-size: 2vh;
+    font-size: 2rem;
     box-shadow: 0px 0px 8px #00000060;
     transition-duration: 0.2s;
 }
@@ -208,27 +208,29 @@ footer {
     display: flex;
     align-items: center;
     height: 20vh;
-    font-size: 2.2vh;
+    font-size: 1.2rem;
     color: #fff;
     padding-left: 10vh;
+    padding-right: 10vh;
+    justify-content: space-between;
 }
 
 .informacoes-footer {
     display: flex;
     justify-content: space-between;
-    width: 140vh;
+    width: 80%;
 }
 
 .text-empresa,
 .text-endereco,
 .text-social,
 .text-contato-footer {
-    font-size: 3vh;
+    font-size: 1.6rem;
     padding-bottom: 1vh;
     font-weight: bold;
 }
 
 footer img {
     height: 7vh;
-    padding-left: 8vh;
+    margin-left: 1vh;
 }

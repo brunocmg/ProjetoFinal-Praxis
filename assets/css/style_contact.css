@@ -27,7 +27,7 @@ nav img {
 
 .secoes a {
     padding-right: 40px;
-    font-size: 20px;
+    font-size: 1.5rem;
     font-weight: bolder;
     text-decoration: none;
     color: black;
@@ -48,7 +48,7 @@ nav img {
     color: #fff;
     align-items: center;
     flex-direction: column;
-    font-size: 40px;
+    font-size: 4rem;
     padding: 40px;
     gap: 100px;
 }
@@ -56,7 +56,7 @@ nav img {
 .titulo {
     font-weight: bolder;
     color: black;
-    font-size: 40px;  
+    font-size: 3rem;  
     text-align: center;
     margin-bottom: 20px;
 }
@@ -64,7 +64,7 @@ nav img {
 .subtitulo {
     font-weight: lighter;
     text-align: center;
-    font-size: 30px;
+    font-size: 1.5rem;
     width: 700px;
     margin: auto;
 }
@@ -78,8 +78,8 @@ nav img {
     gap: 400px; 
 }
 
-.telefone-email p{
-    font-size: 30px;
+.telefone-email p {
+    font-size: 2rem;
 }
 
 .telefone, .email {
@@ -107,8 +107,8 @@ nav img {
 .text-social{
     font-weight: 300;
     text-align: center;
-    font-size: 30px;
-    width: 1000px;
+    font-size: 2rem;
+    width: 100%;
     margin: auto;
     margin-top: 50px;
 }
@@ -127,7 +127,7 @@ nav img {
 
 .redes p{
     font-weight: bold;
-    font-size: 20px;
+    font-size: 1.2rem;
 }
 
 .redes img{
@@ -141,7 +141,7 @@ footer {
     justify-content: center;
     height: 20vh;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1rem;
     flex-direction: column;
     gap: 20px;
 }

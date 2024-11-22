@@ -1,0 +1,19 @@
+@media (max-width: 1024px) {
+    .telefone-email {
+        gap: 10vh;
+    }
+
+    .telefone-email p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .secoes a {
+        font-size: 1.2rem;
+    }
+
+    .telefone-email p {
+        font-size: 1rem;
+    }
+}

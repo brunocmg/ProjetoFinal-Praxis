@@ -1,0 +1,38 @@
+@media (max-width: 1024px) {
+    .texto-descritivo {
+        padding-bottom: 5vh;
+    }
+
+    footer {
+        font-size: 1rem;
+        padding: 0 2vh;
+    }
+
+    .text-empresa,
+    .text-endereco,
+    .text-social,
+    .text-contato-footer {
+        font-size: 1rem;
+        padding-bottom: 1vh;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 768px) {
+    footer {
+        font-size: 1rem;
+        padding: 0 2vh;
+    }
+
+    footer img {
+        height: 5vh;
+    }
+
+    .empresa-footer,
+    .endereco-footer,
+    .social-footer,
+    .contato-footer {
+        padding-left: 2vh;
+    }
+    
+}

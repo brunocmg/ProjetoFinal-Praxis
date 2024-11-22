@@ -1,0 +1,167 @@
+@media (max-width: 1440px) {
+    .contact {
+        font-size: 1.5rem;
+    }
+
+    footer {
+        font-size: 1rem;
+    }
+
+    footer img {
+        height: 5vh;
+    }
+
+    .text-empresa,
+    .text-endereco,
+    .text-social,
+    .text-contato-footer {
+        font-size: 1rem;
+    }
+
+    .empresa-footer,
+    .endereco-footer,
+    .social-footer,
+    .contato-footer {
+        padding-left: 2vh;
+    }
+}
+
+@media (max-width: 1024px) {
+    .main {
+        height: 50vh;
+    }
+
+    .secoes a {
+        font-size: 1.3rem;
+        padding-right: 5vh;
+    }
+
+    .contact-header p {
+        font-size: 1rem;
+    }
+
+    .imagens {
+        height: 50vh;
+    }
+
+    .seta-esquerda {
+        margin-right: 0.5vh;
+        height: 4vh;
+    }
+    
+    .seta-direita {
+        margin-left: 0.5vh;
+        height: 4vh;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.5rem;
+        height: 50vh;
+    }
+
+    .texto {
+        margin: 0;
+    }
+
+    .botao-fale-conosco {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1vh;
+    }
+    
+    .botao a {
+        text-decoration: none;
+    }
+
+    .infos,
+    .botao {
+        margin-top: 2vh;
+    }
+
+    footer {
+        font-size: 1rem;
+        padding: 0 2vh;
+    }
+
+    .text-empresa,
+    .text-endereco,
+    .text-social,
+    .text-contato-footer {
+        font-size: 1rem;
+        padding-bottom: 1vh;
+        font-weight: bold;
+    }
+}
+
+@media (max-width: 768px) {
+    .main {
+        height: 30vh;
+    }
+
+    .secoes a {
+        font-size: 1rem;
+        padding-right: 5vh;
+    }
+
+    .contact-header p {
+        font-size: 1rem;
+    }
+
+    .imagens {
+        height: 50vh;
+    }
+
+    .seta-esquerda {
+        margin-right: 1vh;
+        height: 4vh;
+    }
+    
+    .seta-direita {
+        margin-left: 1vh;
+        height: 4vh;
+    }
+
+    .contact {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-size: 1rem;
+        height: 30vh;
+    }
+
+    .texto {
+        margin: 0;
+    }
+
+    .botao-fale-conosco {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 1vh;
+    }
+    
+    .botao a {
+        text-decoration: none;
+    }
+
+    .infos,
+    .botao {
+        margin-top: 2vh;
+    }
+
+    footer {
+        font-size: 1rem;
+        padding: 0 2vh;
+    }
+
+    .text-empresa,
+    .text-endereco,
+    .text-social,
+    .text-contato-footer {
+        font-size: 1rem;
+        padding-bottom: 1vh;
+        font-weight: bold;
+    }
+}

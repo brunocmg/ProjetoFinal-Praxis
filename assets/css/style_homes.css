@@ -128,7 +128,7 @@ nav img {
     align-items: center;
     justify-content: center;
     text-align: center;
-    width: 95vh;
+    width: 60%;
 }
 
 .texto-descritivo p {
@@ -141,28 +141,29 @@ footer {
     display: flex;
     align-items: center;
     height: 20vh;
-    font-size: 1rem;
+    font-size: 1.2rem;
     color: #fff;
-    margin-top: 5vh;
     padding-left: 10vh;
+    padding-right: 10vh;
+    justify-content: space-between;
 }
 
 .informacoes-footer {
     display: flex;
-    width: 140vh;
+    justify-content: space-between;
+    width: 80%;
 }
 
 .text-empresa,
 .text-endereco,
 .text-social,
 .text-contato-footer {
-    font-size: 2rem;
+    font-size: 1.6rem;
     padding-bottom: 1vh;
     font-weight: bold;
-    padding-left: 1vh;
 }
 
 footer img {
     height: 7vh;
-    padding-left: 8vh;
+    margin-left: 1vh;
 }
