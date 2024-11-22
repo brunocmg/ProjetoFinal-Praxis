@@ -22,6 +22,7 @@ main {
 header {
     border-bottom: 1px solid white;
     display: flex;
+    padding: 1vh;
 }
 
 .social-header img,
@@ -182,7 +183,7 @@ nav img {
 
 .infos,
 .texto {
-    background-color: rgba(3, 185, 3, 60%);
+    background-color: #838383a1;
     border-radius: 20px;
     padding: 1vh 2vh;
 }
@@ -194,6 +195,7 @@ nav img {
     background-color: rgba(3, 185, 3, 60%);
     font-size: 2vh;
     box-shadow: 0px 0px 8px #00000060;
+    transition-duration: 0.2s;
 }
 
 .botao-fale-conosco:hover {
